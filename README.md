@@ -3,7 +3,7 @@ This assumes that you are familiar with LDAP, and have reviewed the documentatio
 [1] ​http://www.cloudera.com/documentation/enterprise/latest/topics/cm_sg_external_auth.html
 
 ## 1. Download the jar and the conf file
-- cmldap-v1.0.0-cm5-jar-with-dependencies.jar can be downloaded from https://github.com/gdgt/ldapcheck/releases
+- cmldap-v1.0.0-cm5-jar-with-dependencies.jar from https://github.com/gdgt/ldapcheck/releases
 - ldap-config.properties template from https://raw.githubusercontent.com/gdgt/ldapcheck/master/src/main/resources/ldap-config.properties
 
 ## 2. Edit the ldap-conf.properties
