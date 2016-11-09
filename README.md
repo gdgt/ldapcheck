@@ -2,11 +2,11 @@ This assumes that you are familiar with LDAP, and have reviewed the documentatio
 
 [1] ​http://www.cloudera.com/documentation/enterprise/latest/topics/cm_sg_external_auth.html
 
-## 1. Download the attached file ldap-config.properties and the cmldap-v1.0.0-cm5-jar-with-dependencies.jar
-The cmldap-v1.0.0-cm5-jar-with-dependencies.jar can be downloaded from https://github.com/gdgt/ldapcheck/releases
-Also, a reference to ldap-config.properties can be downloaded from https://raw.githubusercontent.com/gdgt/ldapcheck/master/src/main/resources/ldap-config.properties
+## 1. Download the jar and the conf file
+- cmldap-v1.0.0-cm5-jar-with-dependencies.jar can be downloaded from https://github.com/gdgt/ldapcheck/releases
+- ldap-config.properties template from https://raw.githubusercontent.com/gdgt/ldapcheck/master/src/main/resources/ldap-config.properties
 
-## 2. Edit the conf.properties
+## 2. Edit the ldap-conf.properties
 Below you'll see in Step 6 the reference for the sAMAccountName value to match the userPrincipalName value. This is  required when choosing AD as the authentication type.
 #### 2.1. Set the "LDAP_TYPE" 
 valid **LDAP** for LDAP and **none/empty** for Active Directory
@@ -68,7 +68,7 @@ FOLLOW_REFERRALS = ignore
 ````
 
 
-## 3. Execute the jar
+## 3. Run the jar
 
 Assuming you have `java` set in your PATH, execute your `cmldap-v1.0.0-cm5-jar-with-dependencies.jar` by issuing
 
