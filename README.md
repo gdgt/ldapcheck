@@ -73,7 +73,9 @@ FOLLOW_REFERRALS = ignore
 Assuming you have `java` set in your PATH, execute your `cmldap-v1.0.0-cm5-jar-with-dependencies.jar` by issuing
 
 `java -jar cmldap-v1.0.0-cm5-jar-with-dependencies.jar 'ldap-config.properties'`
+
 OR using the supplied Cloudera Manager jars
+
 `java -classpath '/usr/share/cmf/common_jars/*:./cmldap-v1.0.0-cm5.jar' com.gdgt.app.LdapChk 'ldap-config.properties'`
 
 Example output
